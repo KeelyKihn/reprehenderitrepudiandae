@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"resolveJsonModule": true,
+		"forceConsistentCasingInFileNames": true,
+		"lib": ["es2015", "esnext", "dom"],
+		"target": "es2015",
+		"module": "commonjs",
+		"alwaysStrict": true,
+		"declaration": true,
+		"moduleResolution": "node",
+		"preserveSymlinks": false,
+		"preserveWatchOutput": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": false,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"pretty": true,
+		"sourceMap": true,
+		"declarationMap": true,
+		"strict": true,
+		"strictNullChecks": true,
+		"experimentalDecorators": true,
+		"outDir": "lib",
+		"esModuleInterop": true
+	},
+	"include": ["src", "test"],
+	"exclude": ["node_modules"]
+}
